@@ -18,6 +18,8 @@ function App() {
   return (
     <div>
       <HashRouter>
+
+        <Navbar/>
         <div>
           <Main>
             hello
@@ -34,8 +36,10 @@ function App() {
 
       </HashRouter>
 
+      <Footer/>
     </div>
   );
 }
 
 export default App;
+
