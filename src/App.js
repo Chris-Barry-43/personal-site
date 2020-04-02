@@ -1,7 +1,13 @@
 import React from 'react';
+import Navbar from './Components/Nav/Navbar.js'
+import Footer from './Components/Footer/index.js'
 import {HashRouter, Route} from "react-router-dom"
+import About from "./Pages/About.js"
+import Resume from "./Pages/Resume.js"
+import Interests from "./Pages/Interests.js"
+import Contact from "./Pages/Contact.js"
+import Home from "./Pages/Home.js"
 import styled from "styled-components"
-import logo from './logo.svg';
 
 const Main = styled.div`
   position: relative;
