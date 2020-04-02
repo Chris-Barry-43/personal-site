@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react'
 import styled from "styled-components"
 import NavLinks from "./NavLinks"
-import { violetRed } from '../../utils/colors';
+import { darkGrey } from '../../utils/colors';
 
 //overall wrappper
 const Wrapper = styled.nav`
@@ -18,7 +18,7 @@ const Wrapper = styled.nav`
   height: 3rem;
   font-size: 1rem;
   font-weight: 50;
-  background: ${props => (props.transparent ? 'transparent' : violetRed)};
+  background: ${props => (props.transparent ? 'transparent' : darkGrey)};
   color: white;
   
   
