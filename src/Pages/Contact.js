@@ -3,9 +3,6 @@ import styled from "styled-components"
 
 const Info = styled.div `
 
-    position: absolute;
-    color: white;
-    background-color: black;
     
 `;
  

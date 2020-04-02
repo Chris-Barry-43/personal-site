@@ -11,7 +11,6 @@ import styled from "styled-components"
 
 const Main = styled.div`
   position: relative;
-  background-color: grey;
   top: 3rem;
 `
 function App() {
