@@ -1,5 +1,4 @@
-// src/Interests.js
- 
+
 import React from "react"
 import Thumbnail from './Thumbnail'; //import the Thumbnail component
 import styled from 'styled-components'
