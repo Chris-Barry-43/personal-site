@@ -1,20 +1,33 @@
-// src/About.js
- 
 import React from "react"
-import Thumbnail from './Thumbnail'; //import the Thumbnail component
- 
+import styled from "styled-components"
+
+const Wrapper = styled.div `
+  display: flex;
+  width: 100%;
+  
+`
+const Left = styled.div `
+  align-self: flex-start;
+
+  width: 40%;
+`
+
+const Right = styled.div `
+  align-self: flex-end;
+
+  width: 60%;
+`
+
 function About(props) {
     return (
-        //Render a Thumbnail component
-      <div>
-        <h1>About</h1>
-        <Thumbnail
-          link="/twitter"
-          image="twitter-logo.jpg"
-          title="Twitter Newsfeed"
-          category="Mobile App"
-        />
-      </div>
+      <Wrapper>
+        <Left>
+          
+        </Left>
+        <Right>
+          
+        </Right>
+      </Wrapper>
     )
 }
  
