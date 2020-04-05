@@ -8,35 +8,46 @@ import Interests from "./Pages/Interests.js"
 import Contact from "./Pages/Contact.js"
 import Home from "./Pages/Home.js"
 import styled from "styled-components"
+import deskphoto from "./desk_photo.jpg"
+
+const Container = styled.div`
+  position: relative;
+  min-height: calc(100vh - 3rem);
+  top: 3rem;
+  left: 0;
+  border: none;
+  margin: -0.5rem -0.5rem -0.5rem -0.5rem;
+`
 
 const Main = styled.div`
-  position: relative;
-  top: 3rem;
+
 `
+
 function App() {
   return (
-    <div>
-      <HashRouter>
+    <Container>
 
+      <HashRouter>
         <Navbar/>
-        <div>
-          <Main>
-            hello
+        
+        <Main>
+            <img src="deskphoto" alt="photo of me"/>
             {/*Set up the Router*/}
             <Route path="/home" component={Home}/>
-            <Route path="/about" component={About}/> {/*defines what page to render given the url extension*/}
+            <Route path="/about" component={About}/> 
             <Route path="/resume" component={Resume}/>
             <Route path="/interests" component={Interests}/>
             <Route path="/contact" component={Contact} /> 
 
-          </Main>
-        </div> 
+            
+        </Main>
+
               
 
       </HashRouter>
-
       <Footer/>
-    </div>
+      
+    </Container>
   );
 }
 
