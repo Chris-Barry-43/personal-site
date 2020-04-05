@@ -4,9 +4,11 @@ import styled, { css } from "styled-components"
 import { grey, paleGrey, red } from '../../utils/colors'
 
 const Wrapper = styled.footer`
-  
-  postion: float;
-  width:100%
+  position: absolute;
+  bottom: 0;
+  height: 2.5rem;
+  width:100%;
+
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -14,33 +16,22 @@ const Wrapper = styled.footer`
   color: ${grey};
   background: ${paleGrey};
   box-sizing: border-box;
-  margin-top: 40em;
 
-  //position: fixed;
-  left: 0;
-  box-sizing: border-box;
-  z-index: 3;
-  width: 100%;
+
   display: flex;
-  top: 0;
   //make the startwrapper at the front and endwrapper at the end
   justify-content: space-between;
   transition: background 300ms ease-out;
-  height: 3rem;
   font-size: 1rem;
   font-weight: 50;
-
-  
 `;
 //display: flex;
 
 const FooterLink = styled.div`
-  color: ${grey};
+
 `;
 
 const FooterContent = styled.div`
-  padding: 2em;
-
 `;
 
 class Footer extends PureComponent {
