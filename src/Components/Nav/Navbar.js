@@ -18,7 +18,8 @@ const Wrapper = styled.nav`
   height: 3rem;
   font-size: 1rem;
   font-weight: 50;
-  background: ${props => (props.transparent ? 'transparent' : darkGrey)};
+  background: rgb(36 36 36);
+  //background: ${props => (props.transparent ? 'transparent' : darkGrey)};
   color: white;
   
   
