@@ -18,6 +18,9 @@ const Container = styled.div`
   border: none;
   margin: -0.5rem -0.5rem -0.5rem -0.5rem;
 `
+const Image = styled.img`
+  width: 100%;
+`
 
 const Main = styled.div`
 
@@ -31,7 +34,7 @@ function App() {
         <Navbar/>
         
         <Main>
-            <img src="deskphoto" alt="photo of me"/>
+            <Image src= {deskphoto} alt="photo of me"/>
             {/*Set up the Router*/}
             <Route path="/home" component={Home}/>
             <Route path="/about" component={About}/> 
