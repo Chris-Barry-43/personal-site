@@ -8,7 +8,6 @@ import Interests from "./Pages/Interests.js"
 import Contact from "./Pages/Contact.js"
 import Home from "./Pages/Home.js"
 import styled from "styled-components"
-import deskphoto from "./desk_photo.jpg"
 
 const Container = styled.div`
   position: relative;
@@ -17,9 +16,6 @@ const Container = styled.div`
   left: 0;
   border: none;
   margin: -0.5rem -0.5rem -0.5rem -0.5rem;
-`
-const Image = styled.img`
-  width: 100%;
 `
 
 const Main = styled.div`
@@ -34,7 +30,6 @@ function App() {
         <Navbar/>
         
         <Main>
-            <Image src= {deskphoto} alt="photo of me"/>
             {/*Set up the Router*/}
             <Route path="/home" component={Home}/>
             <Route path="/about" component={About}/> 
@@ -55,4 +50,3 @@ function App() {
 }
 
 export default App;
-

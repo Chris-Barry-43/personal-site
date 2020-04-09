@@ -39,9 +39,8 @@ class Footer extends PureComponent {
     return (
     <Wrapper>
         <FooterContent>
-            Hi there I'm a footer that will always be down here
             <FooterLink>
-                Here's a link to something?
+                
             </FooterLink>
         </FooterContent>
 
