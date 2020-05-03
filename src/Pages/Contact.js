@@ -1,16 +1,21 @@
 import React from "react"
 import styled from "styled-components"
 
-const Info = styled.div `
+const Wrapper = styled.div`
+`
+
+const Info = styled.h3`
 
     
 `;
  
 function Contact(props) {
   return (
-    <Info>
-      <h1>contact</h1>
-    </Info>
+    <Wrapper>
+      <Info>
+        Chris.A.Barry43@gmail.com
+      </Info>
+    </Wrapper>
   )
 }
 

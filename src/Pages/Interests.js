@@ -1,28 +1,33 @@
-// src/Interests.js
- 
 import React from "react"
-import Thumbnail from './Thumbnail'; //import the Thumbnail component
 import styled from 'styled-components'
+import kestrel from '../Kestrel.jpg'
+import biking from '../me_biking.jpg'
+import iris from '../iris.jpeg'
+import la from '../la.jpg'
 
-const Title = styled.h1`
-  font-size: 1.5em;
-  text-align: center;
-  color: palevioletred;
-`;
+const Wrapper = styled.div`
+  display: flex;
+  flex-wrap: wrap;
 
+`
+
+const Item = styled.div`
+  
+`
+
+const Image = styled.img`
+  border-radius: 8px;
+  height: 15rem;
+`
  
 function Interests(props) {
     return (
-        //Render a Thumbnail component
-      <div>
-        <h1>Interests</h1>
-        <Thumbnail
-          link="/twitter"
-          image=""
-          title="Twitter Newsfeed"
-          category="Mobile App"
-        />
-      </div>
+      <Wrapper>
+        <Image src = {kestrel} alt="photo of Kestrel"/>
+        <Image src = {biking} alt="me biking"/>
+        <Image src = {iris} alt="me holding iris"/>
+        <Image src = {la} alt="me in LA"/>
+      </Wrapper>
     )
 }
  
