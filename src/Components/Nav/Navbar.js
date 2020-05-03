@@ -1,7 +1,8 @@
 import React, { PureComponent } from 'react'
 import styled from "styled-components"
 import NavLinks from "./NavLinks"
-import { darkGrey } from '../../utils/colors';
+import { darkGrey } from '../../utils/colors'
+import SocialFollow from '../../Social_Follow'
 
 //overall wrappper
 const Wrapper = styled.nav`
@@ -70,7 +71,7 @@ class Navbar extends PureComponent {
               </StartWrapper>
 
               <EndWrapper>
-                Social media tags
+                <SocialFollow/>
               </EndWrapper>
 
       </Wrapper>
