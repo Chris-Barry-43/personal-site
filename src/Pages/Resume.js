@@ -53,21 +53,21 @@ function Resume(props) {
           Experience
         </h2>
         <p>
-          Feelance Data Scientist
+          Software Test Developer
           <br/>
         </p>
         <ul>
           <li>
-            HOT model of forest fires
+            Write end of line test prodedures 
           </li>
           <li>
-            Modeling random networks and random walks
+            C++
           </li>
           <li>
-            Word count data with Zipf distriputions
+            Qt
           </li>
           <li>
-            Modeling fractal and non-periodic behavior
+            MySQL, MariaDB
           </li>
         </ul>
 
