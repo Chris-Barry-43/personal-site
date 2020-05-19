@@ -6,7 +6,6 @@ import About from "./Pages/About.js"
 import Resume from "./Pages/Resume.js"
 import Interests from "./Pages/Interests.js"
 import Contact from "./Pages/Contact.js"
-import Home from "./Pages/Home.js"
 import styled from "styled-components"
 
 const Container = styled.div`
@@ -31,7 +30,6 @@ function App() {
         
         <Main>
             {/*Set up the Router*/}
-            <Route path="/home" component={Home}/>
             <Route path="/about" component={About}/> 
             <Route path="/resume" component={Resume}/>
             <Route path="/interests" component={Interests}/>

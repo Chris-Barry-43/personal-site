@@ -51,8 +51,6 @@ const NavLink = styled(Link).attrs((/* props */) => ({
 // Set up the Links by adding an extension to the url
 const NavLinks = () => (
     <Wrapper>
-        <NavLink to="/home" className="nav-item">Home</NavLink>
-        <NavSeparator/>
         <NavLink to="/about" className="nav-item">About</NavLink>
         <NavSeparator/>
         <NavLink to="/resume" className="nav-item">Resume</NavLink>

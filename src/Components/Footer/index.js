@@ -2,6 +2,8 @@ import React, { PureComponent } from "react"
 import styled, { css } from "styled-components"
 //import rem from '../../utils/rem'
 import { grey, paleGrey, red } from '../../utils/colors'
+import NavLinks from "../Nav/NavLinks"
+import {HashRouter} from "react-router-dom";
 
 const Wrapper = styled.footer`
   position: absolute;
@@ -14,7 +16,7 @@ const Wrapper = styled.footer`
   align-items: center;
   text-align: center;
   color: ${grey};
-  background: ${paleGrey};
+  background: #f4f1ec;
   box-sizing: border-box;
 
 
@@ -37,15 +39,14 @@ const FooterContent = styled.div`
 class Footer extends PureComponent {
     render() {
     return (
-    <Wrapper>
-        <FooterContent>
-            <FooterLink>
-                
-            </FooterLink>
-        </FooterContent>
+    <HashRouter>
+        <Wrapper>
+            <FooterContent>
+                <NavLinks/>
+            </FooterContent>
 
-    </Wrapper>
-
+        </Wrapper>
+    </HashRouter>
     )
     }
 };

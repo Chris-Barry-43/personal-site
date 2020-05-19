@@ -19,9 +19,11 @@ const Wrapper = styled.nav`
   height: 3rem;
   font-size: 1rem;
   font-weight: 50;
-  background: rgb(36 36 36);
+  background: #a07f88;
   //background: ${props => (props.transparent ? 'transparent' : darkGrey)};
   color: white;
+  border-bottom:1px solid #ffffff;
+
   
   
 `;
@@ -63,8 +65,6 @@ class Navbar extends PureComponent {
               <StartWrapper>
 
                 <Name>Chris Barry</Name>
-                
-                {/* insert NavLinks */}
                 
                 <NavLinks/>
             

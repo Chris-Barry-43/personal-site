@@ -17,11 +17,11 @@ const Github = styled.a`
 `
 const Facebook = styled.a`
     padding-left: 1rem;
-    color: #3b5998;
+    color: #FFFFFF;
 `
 const Linkedin = styled.a`
     padding-left: 1rem;
-    color: #0e76a8;
+    color: #FFFFFF;
 `
 
 const SocialFollow = () => {
